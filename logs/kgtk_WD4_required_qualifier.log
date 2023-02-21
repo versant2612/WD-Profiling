@@ -1,0 +1,681 @@
+Predicates with constraints da WD - Junho 2022
+INICIO Current date Sat 21 Jan 2023 06:28:51 PM -03
+WD4.0 Preparar ambiente Sat 21 Jan 2023 06:28:51 PM -03
+Graph Cache:
+DB file: /tmp/kgtk-graph-cache-root.sqlite3.db
+  size:  208.10 GB   	free:  24.58 KB   	modified:  2023-01-19 12:27:56
+
+KGTK File Information:
+quals:
+  size:  2.66 GB   	modified:  2022-12-02 18:31:14   	graph:  graph_2
+claims:
+  size:  11.53 GB   	modified:  2022-10-29 23:58:12   	graph:  graph_8
+s2306:
+  size:  5.54 KB   	modified:  2023-01-16 08:38:54   	graph:  graph_23
+p2302_2316s:
+  size:  5.96 KB   	modified:  2023-01-15 01:58:23   	graph:  graph_19
+Q21510851_p2316:
+  size:  527.13 KB   	modified:  2023-01-15 17:32:15   	graph:  graph_18
+p2316:
+  size:  1.62 MB   	modified:  2023-01-15 01:11:34   	graph:  graph_20
+p2302:
+  size:  732.00 KB   	modified:  2023-01-15 01:03:48   	graph:  graph_21
+a2302:
+  size:  732.00 KB   	modified:  2023-01-15 01:03:48   	graph:  graph_27
+p2302_2316:
+  size:  28.38 KB   	modified:  2023-01-15 01:20:32   	graph:  graph_26
+f11:
+  size:  657.16 MB   	modified:  2023-01-07 02:48:01   	graph:  graph_13
+m2302:
+  size:  732.00 KB   	modified:  2023-01-15 01:03:48   	graph:  graph_25
+lab:
+  size:  679.79 MB   	modified:  2023-01-03 00:32:53   	graph:  graph_6
+p2306s:
+  size:  5.54 KB   	modified:  2023-01-15 17:54:40   	graph:  graph_24
+qf12:
+  size:  1.78 GB   	modified:  2023-01-07 05:31:28   	graph:  graph_17
+f1:
+  size:  8.78 GB   	modified:  2022-12-31 22:47:48   	graph:  graph_16
+alias:
+  size:  187.64 MB   	modified:  2022-11-01 16:45:54   	graph:  graph_7
+p2306:
+  size:  527.13 KB   	modified:  2023-01-18 00:15:03   	graph:  graph_22
+c:
+  size:  11.53 GB   	modified:  2022-10-29 23:58:12   	graph:  graph_1
+a2306:
+  size:  532.63 KB   	modified:  2023-01-20 23:57:43   	graph:  graph_29
+p2302q:
+  size:  1.69 MB   	modified:  2023-01-15 01:20:23   	graph:  graph_15
+
+Graph Table Information:
+graph_1:
+  size:  52.15 GB   	created:  2023-01-12 17:10:25
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_13:
+  size:  2.86 GB   	created:  2023-01-13 17:55:36
+  header:  ['id', 'node1', 'label', 'node2']
+graph_15:
+  size:  24.19 MB   	created:  2023-01-15 01:20:27
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_16:
+  size:  20.10 GB   	created:  2023-01-14 02:07:04
+  header:  ['id', 'node1', 'label', 'node2']
+graph_17:
+  size:  17.49 GB   	created:  2023-01-14 02:20:39
+  header:  ['id', 'node1', 'label', 'node2']
+graph_18:
+  size:  581.63 KB   	created:  2023-01-15 17:32:17
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_19:
+  size:  12.29 KB   	created:  2023-01-15 01:58:25
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_2:
+  size:  26.01 GB   	created:  2023-01-12 18:51:31
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_20:
+  size:  2.55 MB   	created:  2023-01-15 01:20:26
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_21:
+  size:  9.88 MB   	created:  2023-01-15 01:20:25
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_22:
+  size:  774.14 KB   	created:  2023-01-18 00:15:04
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_23:
+  size:  16.38 KB   	created:  2023-01-16 08:38:55
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_24:
+  size:  12.29 KB   	created:  2023-01-15 17:54:42
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_25:
+  size:  9.87 MB   	created:  2023-01-15 22:51:05
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_26:
+  size:  36.86 KB   	created:  2023-01-17 15:05:46
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_27:
+  size:  9.87 MB   	created:  2023-01-20 23:18:14
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_29:
+  size:  782.34 KB   	created:  2023-01-21 02:45:37
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_6:
+  size:  4.52 GB   	created:  2023-01-13 01:30:37
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_7:
+  size:  925.48 MB   	created:  2023-01-13 12:15:05
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_8:
+  size:  84.00 GB   	created:  2023-01-13 14:33:46
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+Elapsed time: 1.30 seconds
+id	node1	label	node2	lang	rank	node2;wikidatatype
+P10-alias-en-282226-0	P10	alias	'gif'@en	en		
+P10-alias-en-2f86d8-0	P10	alias	'animation'@en	en		
+P10-alias-en-c1427e-0	P10	alias	'media'@en	en		
+Elapsed time: 1.23 seconds
+id	node1	label	node2	lang	rank	node2;wikidatatype
+P10-label-en	P10	label	'video'@en	en		
+P1000-label-en	P1000	label	'record held'@en	en		
+P10000-label-en	P10000	label	'Research Vocabularies Australia ID'@en	en		
+Elapsed time: 1.33 seconds
+Graph Cache:
+DB file: /tmp/kgtk-graph-cache-root.sqlite3.db
+  size:  208.10 GB   	free:  24.58 KB   	modified:  2023-01-19 12:27:56
+
+KGTK File Information:
+quals:
+  size:  2.66 GB   	modified:  2022-12-02 18:31:14   	graph:  graph_2
+claims:
+  size:  11.53 GB   	modified:  2022-10-29 23:58:12   	graph:  graph_8
+s2306:
+  size:  5.54 KB   	modified:  2023-01-16 08:38:54   	graph:  graph_23
+p2302_2316s:
+  size:  5.96 KB   	modified:  2023-01-15 01:58:23   	graph:  graph_19
+Q21510851_p2316:
+  size:  527.13 KB   	modified:  2023-01-15 17:32:15   	graph:  graph_18
+p2316:
+  size:  1.62 MB   	modified:  2023-01-15 01:11:34   	graph:  graph_20
+p2302:
+  size:  732.00 KB   	modified:  2023-01-15 01:03:48   	graph:  graph_21
+a2302:
+  size:  732.00 KB   	modified:  2023-01-15 01:03:48   	graph:  graph_27
+p2302_2316:
+  size:  28.38 KB   	modified:  2023-01-15 01:20:32   	graph:  graph_26
+f11:
+  size:  657.16 MB   	modified:  2023-01-07 02:48:01   	graph:  graph_13
+m2302:
+  size:  732.00 KB   	modified:  2023-01-15 01:03:48   	graph:  graph_25
+lab:
+  size:  679.79 MB   	modified:  2023-01-03 00:32:53   	graph:  graph_6
+p2306s:
+  size:  5.54 KB   	modified:  2023-01-15 17:54:40   	graph:  graph_24
+qf12:
+  size:  1.78 GB   	modified:  2023-01-07 05:31:28   	graph:  graph_17
+f1:
+  size:  8.78 GB   	modified:  2022-12-31 22:47:48   	graph:  graph_16
+alias:
+  size:  187.64 MB   	modified:  2022-11-01 16:45:54   	graph:  graph_7
+p2306:
+  size:  527.13 KB   	modified:  2023-01-18 00:15:03   	graph:  graph_22
+c:
+  size:  11.53 GB   	modified:  2022-10-29 23:58:12   	graph:  graph_1
+a2306:
+  size:  532.63 KB   	modified:  2023-01-20 23:57:43   	graph:  graph_29
+p2302q:
+  size:  1.69 MB   	modified:  2023-01-15 01:20:23   	graph:  graph_15
+
+Graph Table Information:
+graph_1:
+  size:  52.15 GB   	created:  2023-01-12 17:10:25
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_13:
+  size:  2.86 GB   	created:  2023-01-13 17:55:36
+  header:  ['id', 'node1', 'label', 'node2']
+graph_15:
+  size:  24.19 MB   	created:  2023-01-15 01:20:27
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_16:
+  size:  20.10 GB   	created:  2023-01-14 02:07:04
+  header:  ['id', 'node1', 'label', 'node2']
+graph_17:
+  size:  17.49 GB   	created:  2023-01-14 02:20:39
+  header:  ['id', 'node1', 'label', 'node2']
+graph_18:
+  size:  581.63 KB   	created:  2023-01-15 17:32:17
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_19:
+  size:  12.29 KB   	created:  2023-01-15 01:58:25
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_2:
+  size:  26.01 GB   	created:  2023-01-12 18:51:31
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_20:
+  size:  2.55 MB   	created:  2023-01-15 01:20:26
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_21:
+  size:  9.88 MB   	created:  2023-01-15 01:20:25
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_22:
+  size:  774.14 KB   	created:  2023-01-18 00:15:04
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_23:
+  size:  16.38 KB   	created:  2023-01-16 08:38:55
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_24:
+  size:  12.29 KB   	created:  2023-01-15 17:54:42
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_25:
+  size:  9.87 MB   	created:  2023-01-15 22:51:05
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_26:
+  size:  36.86 KB   	created:  2023-01-17 15:05:46
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_27:
+  size:  9.87 MB   	created:  2023-01-20 23:18:14
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_29:
+  size:  782.34 KB   	created:  2023-01-21 02:45:37
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_6:
+  size:  4.52 GB   	created:  2023-01-13 01:30:37
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_7:
+  size:  925.48 MB   	created:  2023-01-13 12:15:05
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_8:
+  size:  84.00 GB   	created:  2023-01-13 14:33:46
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+Elapsed time: 1.23 seconds
+WD4.1 Selecionar Constraints (P2302) associadas aos predicados Px  Sat 21 Jan 2023 06:28:56 PM -03
+Starting 'filter' on pid 49345.
+Elapsed time: 2025.55 seconds
+WD4.2 Selecionar predicados Px associados a Constraints mandatórias (P2316-> Q21502408) Sat 21 Jan 2023 07:02:42 PM -03
+Starting 'filter' on pid 49361.
+Elapsed time: 511.27 seconds
+WD4.3 Selecionar qualificadores Qy associados a predicados Px que tem a constraint required qualifier Sat 21 Jan 2023 07:11:13 PM -03
+Starting 'ifexists' on pid 49372.
+Elapsed time: 623.85 seconds
+WD4.4 Selecionar qualificadores Qy associados a predicados Px que tem a constraint required qualifier obrigatória Sat 21 Jan 2023 07:21:37 PM -03
+Starting 'query' on pid 49389.
+[2023-01-21 19:21:38 sqlstore]: IMPORT graph directly into table graph_30 from /app/kgtk/data/WD4/required_qualifier/predicate-P2302-constraints.tsv.gz ...
+[2023-01-21 19:21:39 sqlstore]: DROP graph data table graph_21
+[2023-01-21 19:21:39 sqlstore]: IMPORT graph directly into table graph_21 from /app/kgtk/data/WD4/required_qualifier/qualifiers-P2316-constraint-state.tsv ...
+[2023-01-21 19:21:39 sqlstore]: DROP graph data table graph_20
+[2023-01-21 19:21:40 sqlstore]: IMPORT graph directly into table graph_31 from /app/kgtk/data/WD4/required_qualifier/predicate-P2302-constraints-qualifiers.tsv.gz ...
+[2023-01-21 19:21:40 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_30_c1."node1" "_aLias.node1", graph_6_c5."node2" "_aLias.node1;label", ? "_aLias.label", graph_31_c2."node2" "_aLias.node2", graph_6_c7."node2" "_aLias.node2;label"
+     FROM graph_30 AS graph_30_c1
+     INNER JOIN graph_31 AS graph_31_c2
+     ON graph_30_c1."id" = graph_31_c2."node1"
+        AND graph_30_c1."node2" = ?
+        AND graph_31_c2."label" = ?
+        AND (NOT EXISTS (SELECT 1 FROM graph_21 AS graph_21_c8 WHERE graph_30_c1."id" = graph_21_c8."node1" AND graph_21_c8."node2" = ?))
+     LEFT JOIN graph_6 AS graph_6_c5
+     ON graph_30_c1."node1" = graph_6_c5."node1"
+     LEFT JOIN graph_6 AS graph_6_c7
+     ON graph_31_c2."node2" = graph_6_c7."node1"
+  PARAS: ['required qualifier', 'Q21510856', 'P2306', 'Q62026391']
+---------------------------------------------
+[2023-01-21 19:21:40 sqlstore]: CREATE INDEX "graph_31_node1_idx" ON "graph_31" ("node1")
+[2023-01-21 19:21:41 sqlstore]: ANALYZE "graph_31_node1_idx"
+[2023-01-21 19:21:41 sqlstore]: CREATE INDEX "graph_31_label_idx" ON "graph_31" ("label")
+[2023-01-21 19:21:41 sqlstore]: ANALYZE "graph_31_label_idx"
+[2023-01-21 19:21:41 sqlstore]: CREATE INDEX "graph_31_node2_idx" ON "graph_31" ("node2")
+[2023-01-21 19:21:41 sqlstore]: ANALYZE "graph_31_node2_idx"
+[2023-01-21 19:21:41 sqlstore]: CREATE INDEX "graph_30_node1_idx" ON "graph_30" ("node1")
+[2023-01-21 19:21:41 sqlstore]: ANALYZE "graph_30_node1_idx"
+[2023-01-21 19:21:41 sqlstore]: CREATE INDEX "graph_30_id_idx" ON "graph_30" ("id")
+[2023-01-21 19:21:41 sqlstore]: ANALYZE "graph_30_id_idx"
+[2023-01-21 19:21:41 sqlstore]: CREATE INDEX "graph_30_node2_idx" ON "graph_30" ("node2")
+[2023-01-21 19:21:41 sqlstore]: ANALYZE "graph_30_node2_idx"
+[2023-01-21 19:21:41 sqlstore]: CREATE INDEX "graph_21_node1_idx" ON "graph_21" ("node1")
+[2023-01-21 19:21:41 sqlstore]: ANALYZE "graph_21_node1_idx"
+[2023-01-21 19:21:41 sqlstore]: CREATE INDEX "graph_21_node2_idx" ON "graph_21" ("node2")
+[2023-01-21 19:21:41 sqlstore]: ANALYZE "graph_21_node2_idx"
+Elapsed time: 4.42 seconds
+WD4.5 Selecionar CLAIMS do conjunto Multi Value SEM qualificador Qy referente aos predicados Px Sat 21 Jan 2023 07:21:42 PM -03
+Starting 'query' on pid 49449.
+[2023-01-21 19:21:43 sqlstore]: IMPORT graph directly into table graph_32 from /app/kgtk/data/WD4/required_qualifier/predicate-P2302-mandatory_constraints-required_qualifier-P2306-quali.tsv ...
+[2023-01-21 19:21:43 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_32_c2."node1" "_aLias.node1", graph_32_c2."node1;label" "_aLias.node1;label", count(graph_32_c2."node1") "_aLias.node1;count"
+     FROM graph_16 AS graph_16_c1, graph_32 AS graph_32_c2
+     WHERE graph_32_c2."node1;label" = graph_32_c2."node1;label"
+        AND graph_32_c2."node2;label" = graph_32_c2."node2;label"
+        AND ((graph_16_c1."label" = graph_32_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_17 AS graph_17_c5 WHERE graph_16_c1."id" = graph_17_c5."node1" AND (graph_17_c5."label" = graph_32_c2."node2"))))
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 312.40 seconds
+WD4.6 Selecionar CLAIMS do conjunto Completo SEM qualificador Qy referente aos predicados Px Sat 21 Jan 2023 07:26:54 PM -03
+Starting 'query' on pid 49475.
+[2023-01-21 19:26:55 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_32_c2."node1" "_aLias.node1", graph_32_c2."node1;label" "_aLias.node1;label", count(graph_32_c2."node1") "_aLias.node1;count"
+     FROM graph_32 AS graph_32_c2, graph_8 AS graph_8_c1
+     WHERE graph_32_c2."node1;label" = graph_32_c2."node1;label"
+        AND graph_32_c2."node2;label" = graph_32_c2."node2;label"
+        AND ((graph_8_c1."label" = graph_32_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_2 AS graph_2_c5 WHERE graph_8_c1."id" = graph_2_c5."node1" AND (graph_2_c5."label" = graph_32_c2."node2"))))
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 1144.59 seconds
+WD4.7 Sumarização do processamento Sat 21 Jan 2023 07:45:59 PM -03
+WD4.7a Total Claims com violação da constraint required_qualifier Sat 21 Jan 2023 07:45:59 PM -03
+Starting 'query' on pid 49491.
+[2023-01-21 19:46:00 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_8_c1."id") "_aLias.total_claims_required_qualifier_violated"
+     FROM graph_32 AS graph_32_c2, graph_8 AS graph_8_c1
+     WHERE graph_32_c2."node1;label" = graph_32_c2."node1;label"
+        AND graph_32_c2."node2;label" = graph_32_c2."node2;label"
+        AND ((graph_8_c1."label" = graph_32_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_2 AS graph_2_c5 WHERE graph_8_c1."id" = graph_2_c5."node1" AND (graph_2_c5."label" = graph_32_c2."node2"))))
+  PARAS: []
+---------------------------------------------
+total_claims_required_qualifier_violated
+359445
+Elapsed time: 1084.16 seconds
+WD4.7b Total Predicados distintos encontrados em Claims com violação da constraint required_qualifier Sat 21 Jan 2023 08:04:03 PM -03
+257
+WD4.7c TOP-10 Predicados encontrados em Claims com violação da constraint required_qualifier Sun 22 Jan 2023 12:25:32 AM -03
+node1	node1;label	node1;count
+P1082	'population'@en	68042
+P6	'head of government'@en	51629
+P4501	'albedo'@en	23167
+P1618	'sport number'@en	21923
+P609	'terminus location'@en	21502
+P217	'inventory number'@en	15414
+P4765	'Commons compatible image available at URL'@en	14069
+P488	'chairperson'@en	13133
+P414	'stock exchange'@en	11613
+P852	'ESRB rating'@en	10854
+WD4.7d Multi Value Claims com violação da constraint required_qualifier Sat 21 Jan 2023 08:04:05 PM -03
+Starting 'query' on pid 49547.
+[2023-01-21 20:04:06 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_16_c1."id") "_aLias.multi_value_claims_required_qualifier_violated"
+     FROM graph_16 AS graph_16_c1, graph_32 AS graph_32_c2
+     WHERE graph_32_c2."node1;label" = graph_32_c2."node1;label"
+        AND graph_32_c2."node2;label" = graph_32_c2."node2;label"
+        AND ((graph_16_c1."label" = graph_32_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_17 AS graph_17_c5 WHERE graph_16_c1."id" = graph_17_c5."node1" AND (graph_17_c5."label" = graph_32_c2."node2"))))
+  PARAS: []
+---------------------------------------------
+multi_value_claims_required_qualifier_violated
+91879
+Elapsed time: 304.26 seconds
+WD4.7e Total Predicados distintos encontrados em Multi Value Claims com violação da constraint required_qualifier Sat 21 Jan 2023 08:09:09 PM -03
+156
+WD4.7f TOP-10 Predicados encontrados em Multi Value Claims com violação da constraint required_qualifier Sat 21 Jan 2023 08:09:09 PM -03
+node1	node1;label	node1;count
+P1082	'population'@en	30411
+P6	'head of government'@en	18517
+P609	'terminus location'@en	13547
+P726	'candidate'@en	6622
+P1324	'source code repository'@en	2404
+P488	'chairperson'@en	2266
+P1038	'relative'@en	2166
+P414	'stock exchange'@en	1979
+P217	'inventory number'@en	1696
+P1128	'employees'@en	1014
+WD4.7g Total Predicados distintos associados a constraint required_qualifier obrigatória Sat 21 Jan 2023 08:09:11 PM -03
+Starting 'query' on pid 49569.
+[2023-01-21 20:09:12 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_30_c1."node1") "_aLias.required_qualifier_constraint_predicates"
+     FROM graph_30 AS graph_30_c1
+     INNER JOIN graph_31 AS graph_31_c2
+     ON graph_30_c1."id" = graph_31_c2."node1"
+        AND graph_30_c1."node2" = ?
+        AND graph_31_c2."label" = ?
+        AND (NOT EXISTS (SELECT 1 FROM graph_21 AS graph_21_c8 WHERE graph_30_c1."id" = graph_21_c8."node1" AND graph_21_c8."node2" = ?))
+     LEFT JOIN graph_6 AS graph_6_c5
+     ON graph_30_c1."node1" = graph_6_c5."node1"
+     LEFT JOIN graph_6 AS graph_6_c7
+     ON graph_31_c2."node2" = graph_6_c7."node1"
+  PARAS: ['Q21510856', 'P2306', 'Q62026391']
+---------------------------------------------
+required_qualifier_constraint_predicates
+311
+Elapsed time: 1.99 seconds
+WD4.8 Selecionar qualificadores Qy associados a predicados Px que tem a constraint required qualifier sugerida Sat 21 Jan 2023 08:09:13 PM -03
+Starting 'query' on pid 49579.
+[2023-01-21 20:09:14 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_30_c1."node1" "_aLias.node1", graph_6_c5."node2" "_aLias.node1;label", ? "_aLias.label", graph_31_c2."node2" "_aLias.node2", graph_6_c7."node2" "_aLias.node2;label"
+     FROM graph_30 AS graph_30_c1
+     INNER JOIN graph_31 AS graph_31_c2
+     ON graph_30_c1."id" = graph_31_c2."node1"
+        AND graph_30_c1."node2" = ?
+        AND graph_31_c2."label" = ?
+        AND EXISTS (SELECT 1 FROM graph_21 AS graph_21_c8 WHERE graph_30_c1."id" = graph_21_c8."node1" AND graph_21_c8."node2" = ?)
+     LEFT JOIN graph_6 AS graph_6_c5
+     ON graph_30_c1."node1" = graph_6_c5."node1"
+     LEFT JOIN graph_6 AS graph_6_c7
+     ON graph_31_c2."node2" = graph_6_c7."node1"
+  PARAS: ['required qualifier', 'Q21510856', 'P2306', 'Q62026391']
+---------------------------------------------
+Elapsed time: 1.41 seconds
+WD4.9 Selecionar CLAIMS do conjunto Multi Value SEM qualificador Qy referente aos predicados Px Sat 21 Jan 2023 08:09:14 PM -03
+Starting 'query' on pid 49589.
+[2023-01-21 20:09:15 sqlstore]: IMPORT graph directly into table graph_33 from /app/kgtk/data/WD4/required_qualifier/predicate-P2302-suggested_constraints-required_qualifier-P2306-quali.tsv ...
+[2023-01-21 20:09:15 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_33_c2."node1" "_aLias.node1", graph_33_c2."node1;label" "_aLias.node1;label", count(graph_33_c2."node1") "_aLias.node1;count"
+     FROM graph_16 AS graph_16_c1, graph_33 AS graph_33_c2
+     WHERE graph_33_c2."node1;label" = graph_33_c2."node1;label"
+        AND graph_33_c2."node2;label" = graph_33_c2."node2;label"
+        AND ((graph_16_c1."label" = graph_33_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_17 AS graph_17_c5 WHERE graph_16_c1."id" = graph_17_c5."node1" AND (graph_17_c5."label" = graph_33_c2."node2"))))
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 293.84 seconds
+WD4.10 Selecionar CLAIMS do conjunto Completo SEM qualificador Qy referente aos predicados Px Sat 21 Jan 2023 08:14:08 PM -03
+Starting 'query' on pid 49616.
+[2023-01-21 20:14:09 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_33_c2."node1" "_aLias.node1", graph_33_c2."node1;label" "_aLias.node1;label", count(graph_33_c2."node1") "_aLias.node1;count"
+     FROM graph_33 AS graph_33_c2, graph_8 AS graph_8_c1
+     WHERE graph_33_c2."node1;label" = graph_33_c2."node1;label"
+        AND graph_33_c2."node2;label" = graph_33_c2."node2;label"
+        AND ((graph_8_c1."label" = graph_33_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_2 AS graph_2_c5 WHERE graph_8_c1."id" = graph_2_c5."node1" AND (graph_2_c5."label" = graph_33_c2."node2"))))
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 1205.96 seconds
+WD4.11 Sumarização do processamento Sat 21 Jan 2023 08:34:14 PM -03
+WD4.11a Total Claims com violação da constraint required_qualifier Sat 21 Jan 2023 08:34:14 PM -03
+Starting 'query' on pid 49635.
+[2023-01-21 20:34:15 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_8_c1."id") "_aLias.total_claims_suggested_required_qualifier_violated"
+     FROM graph_33 AS graph_33_c2, graph_8 AS graph_8_c1
+     WHERE graph_33_c2."node1;label" = graph_33_c2."node1;label"
+        AND graph_33_c2."node2;label" = graph_33_c2."node2;label"
+        AND ((graph_8_c1."label" = graph_33_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_2 AS graph_2_c5 WHERE graph_8_c1."id" = graph_2_c5."node1" AND (graph_2_c5."label" = graph_33_c2."node2"))))
+  PARAS: []
+---------------------------------------------
+total_claims_suggested_required_qualifier_violated
+3448673
+Elapsed time: 1160.38 seconds
+WD4.11b Total Predicados distintos encontrados em Claims com violação da constraint required_qualifier Sat 21 Jan 2023 08:53:34 PM -03
+62
+WD4.11c TOP-10 Predicados encontrados em Claims com violação da constraint required_qualifier Sat 21 Jan 2023 08:53:34 PM -03
+node1	node1;label	node1;count
+P856	'official website'@en	1165471
+P1082	'population'@en	717770
+P39	'position held'@en	606700
+P973	'described at URL'@en	536256
+P1540	'male population'@en	103110
+P1539	'female population'@en	102783
+P2002	'Twitter username'@en	40424
+P2567	'amended by'@en	37717
+P3148	'repeals'@en	28639
+P1618	'sport number'@en	24078
+WD4.11d Multi Value Claims com violação da constraint required_qualifier Sat 21 Jan 2023 08:53:37 PM -03
+Starting 'query' on pid 49808.
+[2023-01-21 20:53:38 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_16_c1."id") "_aLias.multi_value_claims_suggested_required_qualifier_violated"
+     FROM graph_16 AS graph_16_c1, graph_33 AS graph_33_c2
+     WHERE graph_33_c2."node1;label" = graph_33_c2."node1;label"
+        AND graph_33_c2."node2;label" = graph_33_c2."node2;label"
+        AND ((graph_16_c1."label" = graph_33_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_17 AS graph_17_c5 WHERE graph_16_c1."id" = graph_17_c5."node1" AND (graph_17_c5."label" = graph_33_c2."node2"))))
+  PARAS: []
+---------------------------------------------
+multi_value_claims_suggested_required_qualifier_violated
+1258710
+Elapsed time: 296.27 seconds
+WD4.11e Total Predicados distintos encontrados em Multi Value Claims com violação da constraint required_qualifier Sat 21 Jan 2023 08:58:33 PM -03
+45
+WD4.11f TOP-10 Predicados encontrados em Multi Value Claims com violação da constraint required_qualifier Sat 21 Jan 2023 08:58:33 PM -03
+node1	node1;label	node1;count
+P1082	'population'@en	549926
+P39	'position held'@en	268967
+P973	'described at URL'@en	97540
+P1540	'male population'@en	90152
+P1539	'female population'@en	90118
+P856	'official website'@en	89411
+P2567	'amended by'@en	34016
+P3148	'repeals'@en	20862
+P1411	'nominated for'@en	11125
+P3025	'open days'@en	3605
+WD4.11g Total Predicados distintos associados a constraint required_qualifier sugeridas  Sat 21 Jan 2023 08:58:34 PM -03
+Starting 'query' on pid 49830.
+[2023-01-21 20:58:36 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_30_c1."node1") "_aLias.suggested_required_qualifier_constraint_predicates"
+     FROM graph_30 AS graph_30_c1
+     INNER JOIN graph_31 AS graph_31_c2
+     ON graph_30_c1."id" = graph_31_c2."node1"
+        AND graph_30_c1."node2" = ?
+        AND graph_31_c2."label" = ?
+        AND EXISTS (SELECT 1 FROM graph_21 AS graph_21_c8 WHERE graph_30_c1."id" = graph_21_c8."node1" AND graph_21_c8."node2" = ?)
+     LEFT JOIN graph_6 AS graph_6_c5
+     ON graph_30_c1."node1" = graph_6_c5."node1"
+     LEFT JOIN graph_6 AS graph_6_c7
+     ON graph_31_c2."node2" = graph_6_c7."node1"
+  PARAS: ['Q21510856', 'P2306', 'Q62026391']
+---------------------------------------------
+suggested_required_qualifier_constraint_predicates
+63
+Elapsed time: 1.71 seconds
+WD4B.1 Contabilizar a ausência do qualificador Qy referente aos predicados Px no conjunto Multi Value Sat 21 Jan 2023 08:58:36 PM -03
+Starting 'query' on pid 49840.
+[2023-01-21 20:58:37 sqlstore]: IMPORT graph directly into table graph_34 from /app/kgtk/data/WD4/required_qualifier/predicate-P2302-mandatory_constraints-required_qualifier-P2306-quali.tsv ...
+[2023-01-21 20:58:37 sqlstore]: DROP graph data table graph_26
+[2023-01-21 20:58:37 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_34_c2."node2" "_aLias.node1", graph_34_c2."node2;label" "_aLias.node1;label", count(graph_34_c2."node2") "_aLias.node1;count"
+     FROM graph_16 AS graph_16_c1, graph_34 AS graph_34_c2
+     WHERE graph_34_c2."node1;label" = graph_34_c2."node1;label"
+        AND graph_34_c2."node2;label" = graph_34_c2."node2;label"
+        AND ((graph_16_c1."label" = graph_34_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_17 AS graph_17_c5 WHERE graph_16_c1."id" = graph_17_c5."node1" AND (graph_17_c5."label" = graph_34_c2."node2"))))
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 313.09 seconds
+WD4B.2 Contabilizar a ausência do qualificador Qy referente aos predicados Px no conjunto conjunto Completo Px Sat 21 Jan 2023 09:03:49 PM -03
+Starting 'query' on pid 49865.
+[2023-01-21 21:03:51 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_34_c2."node2" "_aLias.node1", graph_34_c2."node2;label" "_aLias.node1;label", count(graph_34_c2."node2") "_aLias.node1;count"
+     FROM graph_34 AS graph_34_c2, graph_8 AS graph_8_c1
+     WHERE graph_34_c2."node1;label" = graph_34_c2."node1;label"
+        AND graph_34_c2."node2;label" = graph_34_c2."node2;label"
+        AND ((graph_8_c1."label" = graph_34_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_2 AS graph_2_c5 WHERE graph_8_c1."id" = graph_2_c5."node1" AND (graph_2_c5."label" = graph_34_c2."node2"))))
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 1165.34 seconds
+WD4B.3 Contabilizar frequencia do qualificador Qy referente aos predicados Px nas mandatory constraints required_qualifier Sat 21 Jan 2023 09:23:15 PM -03
+Starting 'query' on pid 50245.
+[2023-01-21 21:23:16 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_34_c1."node2" "_aLias.node1", graph_34_c1."node2;label" "_aLias.node1;label", count(graph_34_c1."node2") "_aLias.node1;count"
+     FROM graph_34 AS graph_34_c1
+     WHERE graph_34_c1."node1;label" = graph_34_c1."node1;label"
+        AND graph_34_c1."node2;label" = graph_34_c1."node2;label"
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 1.25 seconds
+WD4B.4 Contabilizar a ausência do qualificador Qy referente aos predicados Px no conjunto Multi Value Sat 21 Jan 2023 09:23:16 PM -03
+Starting 'query' on pid 50255.
+[2023-01-21 21:23:17 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_33_c2."node2" "_aLias.node1", graph_33_c2."node2;label" "_aLias.node1;label", count(graph_33_c2."node2") "_aLias.node1;count"
+     FROM graph_16 AS graph_16_c1, graph_33 AS graph_33_c2
+     WHERE graph_33_c2."node1;label" = graph_33_c2."node1;label"
+        AND graph_33_c2."node2;label" = graph_33_c2."node2;label"
+        AND ((graph_16_c1."label" = graph_33_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_17 AS graph_17_c5 WHERE graph_16_c1."id" = graph_17_c5."node1" AND (graph_17_c5."label" = graph_33_c2."node2"))))
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 323.93 seconds
+WD4B.5 Contabilizar a ausência do qualificador Qy referente aos predicados Px no conjunto conjunto Completo Px Sat 21 Jan 2023 09:28:40 PM -03
+Starting 'query' on pid 50369.
+[2023-01-21 21:28:41 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_33_c2."node2" "_aLias.node1", graph_33_c2."node2;label" "_aLias.node1;label", count(graph_33_c2."node2") "_aLias.node1;count"
+     FROM graph_33 AS graph_33_c2, graph_8 AS graph_8_c1
+     WHERE graph_33_c2."node1;label" = graph_33_c2."node1;label"
+        AND graph_33_c2."node2;label" = graph_33_c2."node2;label"
+        AND ((graph_8_c1."label" = graph_33_c2."node1") AND (NOT EXISTS (SELECT 1 FROM graph_2 AS graph_2_c5 WHERE graph_8_c1."id" = graph_2_c5."node1" AND (graph_2_c5."label" = graph_33_c2."node2"))))
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 1228.46 seconds
+WD4B.6 Contabilizar frequencia do qualificador Qy referente aos predicados Px nas mandatory constraints required_qualifier Sat 21 Jan 2023 09:49:08 PM -03
+Starting 'query' on pid 50451.
+[2023-01-21 21:49:11 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_33_c1."node2" "_aLias.node1", graph_33_c1."node2;label" "_aLias.node1;label", count(graph_33_c1."node2") "_aLias.node1;count"
+     FROM graph_33 AS graph_33_c1
+     WHERE graph_33_c1."node1;label" = graph_33_c1."node1;label"
+        AND graph_33_c1."node2;label" = graph_33_c1."node2;label"
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 2.73 seconds
+WD4B.7 Sumarização do processamento Sat 21 Jan 2023 09:49:11 PM -03
+WD4B.7a Total de qualificadores Qy referente aos predicados Px nas mandatory constraints required_qualifier Sat 21 Jan 2023 09:49:11 PM -03
+95
+WD4B.7b TOP-10 Qualificadores Qy referente aos predicados Px nas mandatory constraints required_qualifier Sat 21 Jan 2023 09:49:11 PM -03
+node1	node1;label	node1;count
+P585	'point in time'@en	93
+P2076	'temperature'@en	24
+P580	'start time'@en	24
+P400	'platform'@en	20
+P2676	'rating certificate ID'@en	17
+P1810	'subject named as'@en	14
+P459	'determination method'@en	12
+P7367	'content descriptor'@en	10
+P515	'phase of matter'@en	9
+P1013	'criterion used'@en	8
+WD4B.7c Total de qualificadores Qy referente aos predicados Px das mandatory constraints required_qualifier ausentes no conjunto Multi Value Sat 21 Jan 2023 09:49:12 PM -03
+63
+WD4B.7d TOP-10 Qualificadores Qy referente aos predicados Px das mandatory constraints required_qualifier ausentes no conjunto Multi Value  Sat 21 Jan 2023 09:49:12 PM -03
+node1	node1;label	node1;count
+P585	'point in time'@en	34734
+P3415	'start period'@en	17555
+P560	'direction'@en	13547
+P1111	'votes received'@en	6622
+P580	'start time'@en	6055
+P1039	'kinship to subject'@en	2166
+P10627	'web interface software'@en	1956
+P195	'collection'@en	1696
+P3831	'object has role'@en	1002
+P459	'determination method'@en	957
+WD4B.7e Total de qualificadores Qy referente aos predicados Px das mandatory constraints required_qualifier ausentes no conjunto Completo Sat 21 Jan 2023 09:49:13 PM -03
+86
+WD4B.7f TOP-10 Qualificadores Qy referente aos predicados Px das mandatory constraints required_qualifier ausentes no conjunto Completo Sat 21 Jan 2023 09:49:13 PM -03
+node1	node1;label	node1;count
+P585	'point in time'@en	112128
+P580	'start time'@en	50230
+P3415	'start period'@en	38268
+P1013	'criterion used'@en	24668
+P642	'of'@en	22462
+P560	'direction'@en	21502
+P195	'collection'@en	15414
+P7367	'content descriptor'@en	12795
+P2093	'author name string'@en	10896
+P459	'determination method'@en	9929
+WD4B.7g Total de qualificadores Qy referente aos predicados Px nas suggested constraints required_qualifier Sat 21 Jan 2023 09:49:14 PM -03
+30
+WD4B.7h TOP-10 Qualificadores Qy referente aos predicados Px nas suggested constraints required_qualifier Sat 21 Jan 2023 09:49:14 PM -03
+node1	node1;label	node1;count
+P407	'language of work or name'@en	16
+P585	'point in time'@en	12
+P580	'start time'@en	9
+P459	'determination method'@en	5
+P1810	'subject named as'@en	4
+P7367	'content descriptor'@en	4
+P437	'distribution format'@en	3
+P1476	'title'@en	2
+P4970	'alternative name'@en	2
+P10663	'applies to work'@en	1
+WD4B.7i Total de qualificadores Qy referente aos predicados Px das suggested constraints required_qualifier ausentes no conjunto Multi Value Sat 21 Jan 2023 09:49:16 PM -03
+19
+WD4B.7j TOP-10 Qualificadores Qy referente aos predicados Px das suggested constraints required_qualifier ausentes no conjunto Multi Value  Sat 21 Jan 2023 09:49:16 PM -03
+node1	node1;label	node1;count
+P459	'determination method'@en	730810
+P580	'start time'@en	269591
+P407	'language of work or name'@en	188450
+P585	'point in time'@en	67652
+P8627	'closing time'@en	1803
+P8626	'opening time'@en	1802
+P2699	'URL'@en	256
+P7367	'content descriptor'@en	66
+P437	'distribution format'@en	60
+P10663	'applies to work'@en	51
+WD4B.7k Total de qualificadores Qy referente aos predicados Px das suggested constraints required_qualifier ausentes no conjunto Completo Sat 21 Jan 2023 09:49:17 PM -03
+30
+WD4B.7l TOP-10 Qualificadores Qy referente aos predicados Px das suggested constraints required_qualifier ausentes no conjunto Completo Sat 21 Jan 2023 09:49:17 PM -03
+node1	node1;label	node1;count
+P407	'language of work or name'@en	1717233
+P459	'determination method'@en	926034
+P580	'start time'@en	656267
+P585	'point in time'@en	103465
+P6552	'Twitter user numeric ID'@en	19426
+P2676	'rating certificate ID'@en	13329
+P972	'catalog'@en	8662
+P137	'operator'@en	5202
+P7367	'content descriptor'@en	4085
+P4390	'mapping relation type'@en	3561
+FIM Current date Sat 21 Jan 2023 09:49:18 PM -03
+WD4.X Selecionar Constraints (P2302) do tipo required qualifiers associadas aos predicados Px  Mon 23 Jan 2023 05:20:07 PM -03
+Starting 'filter' on pid 56787.
+Elapsed time: 2440.07 seconds
+

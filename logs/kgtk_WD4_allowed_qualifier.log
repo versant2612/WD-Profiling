@@ -1,0 +1,400 @@
+Predicates with constraints da WD - Junho 2022
+INICIO Current date Tue 24 Jan 2023 10:12:14 PM -03
+WD4.0 Preparar ambiente Tue 24 Jan 2023 10:12:14 PM -03
+Graph Cache:
+DB file: /tmp/kgtk-graph-cache-root.sqlite3.db
+  size:  222.26 GB   	free:  0 Bytes   	modified:  2023-01-24 15:25:40
+
+KGTK File Information:
+quals:
+  size:  2.66 GB   	modified:  2022-12-02 18:31:14   	graph:  graph_2
+claims:
+  size:  11.53 GB   	modified:  2022-10-29 23:58:12   	graph:  graph_8
+q2302:
+  size:  1.69 MB   	modified:  2023-01-21 19:21:37   	graph:  graph_31
+s2306:
+  size:  5.54 KB   	modified:  2023-01-16 08:38:54   	graph:  graph_23
+p2302_2316s:
+  size:  5.96 KB   	modified:  2023-01-15 01:58:23   	graph:  graph_19
+p2302_2316:
+  size:  28.38 KB   	modified:  2023-01-21 19:21:41   	graph:  graph_34
+m2316:
+  size:  28.38 KB   	modified:  2023-01-21 19:21:41   	graph:  graph_32
+p2316:
+  size:  1.62 MB   	modified:  2023-01-21 19:11:13   	graph:  graph_21
+Q21510851_p2316:
+  size:  527.13 KB   	modified:  2023-01-15 17:32:15   	graph:  graph_18
+f12:
+  size:  1.83 GB   	modified:  2023-01-07 03:36:36   	graph:  graph_37
+f11:
+  size:  657.16 MB   	modified:  2023-01-07 02:48:01   	graph:  graph_13
+p2302:
+  size:  732.00 KB   	modified:  2023-01-21 19:02:42   	graph:  graph_30
+m2302:
+  size:  732.00 KB   	modified:  2023-01-15 01:03:48   	graph:  graph_25
+lab:
+  size:  679.79 MB   	modified:  2023-01-03 00:32:53   	graph:  graph_6
+p2306s:
+  size:  5.54 KB   	modified:  2023-01-15 17:54:40   	graph:  graph_24
+a2306:
+  size:  865.12 KB   	modified:  2023-01-23 17:27:51   	graph:  graph_27
+qf12:
+  size:  1.78 GB   	modified:  2023-01-07 05:31:28   	graph:  graph_17
+f1:
+  size:  8.78 GB   	modified:  2022-12-31 22:47:48   	graph:  graph_16
+allowed:
+  size:  9.38 KB   	modified:  2023-01-23 17:16:59   	graph:  graph_35
+alias:
+  size:  187.64 MB   	modified:  2022-11-01 16:45:54   	graph:  graph_7
+p2306:
+  size:  527.13 KB   	modified:  2023-01-18 00:15:03   	graph:  graph_22
+c:
+  size:  11.53 GB   	modified:  2022-10-29 23:58:12   	graph:  graph_1
+s2316:
+  size:  5.96 KB   	modified:  2023-01-21 20:09:14   	graph:  graph_33
+p2302q:
+  size:  63.75 KB   	modified:  2023-01-23 17:27:45   	graph:  graph_36
+a2302:
+  size:  732.00 KB   	modified:  2023-01-21 22:02:17   	graph:  graph_26
+
+Graph Table Information:
+graph_1:
+  size:  52.15 GB   	created:  2023-01-12 17:10:25
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_13:
+  size:  2.86 GB   	created:  2023-01-13 17:55:36
+  header:  ['id', 'node1', 'label', 'node2']
+graph_16:
+  size:  20.10 GB   	created:  2023-01-14 02:07:04
+  header:  ['id', 'node1', 'label', 'node2']
+graph_17:
+  size:  17.49 GB   	created:  2023-01-14 02:20:39
+  header:  ['id', 'node1', 'label', 'node2']
+graph_18:
+  size:  581.63 KB   	created:  2023-01-15 17:32:17
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_19:
+  size:  12.29 KB   	created:  2023-01-15 01:58:25
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_2:
+  size:  26.01 GB   	created:  2023-01-12 18:51:31
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_21:
+  size:  2.55 MB   	created:  2023-01-21 19:21:39
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_22:
+  size:  774.14 KB   	created:  2023-01-18 00:15:04
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_23:
+  size:  16.38 KB   	created:  2023-01-16 08:38:55
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_24:
+  size:  12.29 KB   	created:  2023-01-15 17:54:42
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_25:
+  size:  9.87 MB   	created:  2023-01-15 22:51:05
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_26:
+  size:  9.87 MB   	created:  2023-01-21 22:12:14
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_27:
+  size:  1.12 MB   	created:  2023-01-23 17:27:52
+  header:  ['id', 'node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_30:
+  size:  9.87 MB   	created:  2023-01-21 19:21:39
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_31:
+  size:  31.28 MB   	created:  2023-01-21 19:21:40
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_32:
+  size:  36.86 KB   	created:  2023-01-21 19:21:43
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_33:
+  size:  12.29 KB   	created:  2023-01-21 20:09:15
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_34:
+  size:  36.86 KB   	created:  2023-01-21 20:58:37
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_35:
+  size:  122.88 KB   	created:  2023-01-23 17:27:47
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_36:
+  size:  1.38 MB   	created:  2023-01-23 17:27:47
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_37:
+  size:  12.36 GB   	created:  2023-01-24 17:25:31
+  header:  ['id', 'node1', 'label', 'node2']
+graph_6:
+  size:  6.31 GB   	created:  2023-01-13 01:30:37
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_7:
+  size:  925.48 MB   	created:  2023-01-13 12:15:05
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_8:
+  size:  84.00 GB   	created:  2023-01-13 14:33:46
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+Elapsed time: 2.68 seconds
+id	node1	label	node2	lang	rank	node2;wikidatatype
+P10-alias-en-282226-0	P10	alias	'gif'@en	en		
+P10-alias-en-2f86d8-0	P10	alias	'animation'@en	en		
+P10-alias-en-c1427e-0	P10	alias	'media'@en	en		
+Elapsed time: 1.34 seconds
+id	node1	label	node2	lang	rank	node2;wikidatatype
+P10-label-en	P10	label	'video'@en	en		
+P1000-label-en	P1000	label	'record held'@en	en		
+P10000-label-en	P10000	label	'Research Vocabularies Australia ID'@en	en		
+Elapsed time: 1.23 seconds
+Graph Cache:
+DB file: /tmp/kgtk-graph-cache-root.sqlite3.db
+  size:  222.26 GB   	free:  0 Bytes   	modified:  2023-01-24 15:25:40
+
+KGTK File Information:
+quals:
+  size:  2.66 GB   	modified:  2022-12-02 18:31:14   	graph:  graph_2
+claims:
+  size:  11.53 GB   	modified:  2022-10-29 23:58:12   	graph:  graph_8
+q2302:
+  size:  1.69 MB   	modified:  2023-01-21 19:21:37   	graph:  graph_31
+s2306:
+  size:  5.54 KB   	modified:  2023-01-16 08:38:54   	graph:  graph_23
+p2302_2316s:
+  size:  5.96 KB   	modified:  2023-01-15 01:58:23   	graph:  graph_19
+p2302_2316:
+  size:  28.38 KB   	modified:  2023-01-21 19:21:41   	graph:  graph_34
+m2316:
+  size:  28.38 KB   	modified:  2023-01-21 19:21:41   	graph:  graph_32
+p2316:
+  size:  1.62 MB   	modified:  2023-01-21 19:11:13   	graph:  graph_21
+Q21510851_p2316:
+  size:  527.13 KB   	modified:  2023-01-15 17:32:15   	graph:  graph_18
+f12:
+  size:  1.83 GB   	modified:  2023-01-07 03:36:36   	graph:  graph_37
+f11:
+  size:  657.16 MB   	modified:  2023-01-07 02:48:01   	graph:  graph_13
+p2302:
+  size:  732.00 KB   	modified:  2023-01-21 19:02:42   	graph:  graph_30
+m2302:
+  size:  732.00 KB   	modified:  2023-01-15 01:03:48   	graph:  graph_25
+lab:
+  size:  679.79 MB   	modified:  2023-01-03 00:32:53   	graph:  graph_6
+p2306s:
+  size:  5.54 KB   	modified:  2023-01-15 17:54:40   	graph:  graph_24
+a2306:
+  size:  865.12 KB   	modified:  2023-01-23 17:27:51   	graph:  graph_27
+qf12:
+  size:  1.78 GB   	modified:  2023-01-07 05:31:28   	graph:  graph_17
+f1:
+  size:  8.78 GB   	modified:  2022-12-31 22:47:48   	graph:  graph_16
+allowed:
+  size:  9.38 KB   	modified:  2023-01-23 17:16:59   	graph:  graph_35
+alias:
+  size:  187.64 MB   	modified:  2022-11-01 16:45:54   	graph:  graph_7
+p2306:
+  size:  527.13 KB   	modified:  2023-01-18 00:15:03   	graph:  graph_22
+c:
+  size:  11.53 GB   	modified:  2022-10-29 23:58:12   	graph:  graph_1
+s2316:
+  size:  5.96 KB   	modified:  2023-01-21 20:09:14   	graph:  graph_33
+p2302q:
+  size:  63.75 KB   	modified:  2023-01-23 17:27:45   	graph:  graph_36
+a2302:
+  size:  732.00 KB   	modified:  2023-01-21 22:02:17   	graph:  graph_26
+
+Graph Table Information:
+graph_1:
+  size:  52.15 GB   	created:  2023-01-12 17:10:25
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_13:
+  size:  2.86 GB   	created:  2023-01-13 17:55:36
+  header:  ['id', 'node1', 'label', 'node2']
+graph_16:
+  size:  20.10 GB   	created:  2023-01-14 02:07:04
+  header:  ['id', 'node1', 'label', 'node2']
+graph_17:
+  size:  17.49 GB   	created:  2023-01-14 02:20:39
+  header:  ['id', 'node1', 'label', 'node2']
+graph_18:
+  size:  581.63 KB   	created:  2023-01-15 17:32:17
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_19:
+  size:  12.29 KB   	created:  2023-01-15 01:58:25
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_2:
+  size:  26.01 GB   	created:  2023-01-12 18:51:31
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_21:
+  size:  2.55 MB   	created:  2023-01-21 19:21:39
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_22:
+  size:  774.14 KB   	created:  2023-01-18 00:15:04
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_23:
+  size:  16.38 KB   	created:  2023-01-16 08:38:55
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_24:
+  size:  12.29 KB   	created:  2023-01-15 17:54:42
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_25:
+  size:  9.87 MB   	created:  2023-01-15 22:51:05
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_26:
+  size:  9.87 MB   	created:  2023-01-21 22:12:14
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_27:
+  size:  1.12 MB   	created:  2023-01-23 17:27:52
+  header:  ['id', 'node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_30:
+  size:  9.87 MB   	created:  2023-01-21 19:21:39
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_31:
+  size:  31.28 MB   	created:  2023-01-21 19:21:40
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_32:
+  size:  36.86 KB   	created:  2023-01-21 19:21:43
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_33:
+  size:  12.29 KB   	created:  2023-01-21 20:09:15
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_34:
+  size:  36.86 KB   	created:  2023-01-21 20:58:37
+  header:  ['node1', 'node1;label', 'label', 'node2', 'node2;label']
+graph_35:
+  size:  122.88 KB   	created:  2023-01-23 17:27:47
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_36:
+  size:  1.38 MB   	created:  2023-01-23 17:27:47
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_37:
+  size:  12.36 GB   	created:  2023-01-24 17:25:31
+  header:  ['id', 'node1', 'label', 'node2']
+graph_6:
+  size:  6.31 GB   	created:  2023-01-13 01:30:37
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_7:
+  size:  925.48 MB   	created:  2023-01-13 12:15:05
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_8:
+  size:  84.00 GB   	created:  2023-01-13 14:33:46
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+Elapsed time: 1.16 seconds
+WD4.1 Selecionar Constraints (P2302) do tipo allowed qualifiers associadas aos predicados Px  Tue 24 Jan 2023 10:12:21 PM -03
+Starting 'filter' on pid 265548.
+Elapsed time: 2517.41 seconds
+WD4.2 Selecionar qualificadores Qy associados a predicados Px que tem a constraint allowed qualifier Tue 24 Jan 2023 10:54:18 PM -03
+Starting 'ifexists' on pid 267148.
+Elapsed time: 642.27 seconds
+WD4.3 Acrescentar label aos qualificadores Qy e predicados Px que tem a constraint allowed qualifier Tue 24 Jan 2023 11:05:00 PM -03
+Starting 'query' on pid 267638.
+[2023-01-24 23:05:01 sqlstore]: IMPORT graph directly into table graph_38 from /app/kgtk/data/WD4/allowed_qualifier/predicate-P2302-constraints-Q21510851.tsv.gz ...
+[2023-01-24 23:05:02 sqlstore]: DROP graph data table graph_35
+[2023-01-24 23:05:02 sqlstore]: IMPORT graph directly into table graph_35 from /app/kgtk/data/WD4/allowed_qualifier/predicate-P2302-constraints-qualifiers.tsv.gz ...
+[2023-01-24 23:05:02 sqlstore]: DROP graph data table graph_36
+[2023-01-24 23:05:02 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_35_c2."id", graph_38_c1."node1" "_aLias.node1", graph_6_c5."node2" "_aLias.node1;label", ? "_aLias.label", graph_35_c2."node2" "_aLias.node2", graph_6_c7."node2" "_aLias.node2;label"
+     FROM graph_35 AS graph_35_c2
+     INNER JOIN graph_38 AS graph_38_c1
+     ON graph_38_c1."id" = graph_35_c2."node1"
+        AND graph_35_c2."label" = ?
+     LEFT JOIN graph_6 AS graph_6_c5
+     ON graph_38_c1."node1" = graph_6_c5."node1"
+     LEFT JOIN graph_6 AS graph_6_c7
+     ON graph_35_c2."node2" = graph_6_c7."node1"
+  PARAS: ['allowed qualifier', 'P2306']
+---------------------------------------------
+[2023-01-24 23:05:02 sqlstore]: CREATE INDEX "graph_35_node2_idx" ON "graph_35" ("node2")
+[2023-01-24 23:05:02 sqlstore]: ANALYZE "graph_35_node2_idx"
+[2023-01-24 23:05:02 sqlstore]: CREATE INDEX "graph_35_node1_idx" ON "graph_35" ("node1")
+[2023-01-24 23:05:02 sqlstore]: ANALYZE "graph_35_node1_idx"
+[2023-01-24 23:05:02 sqlstore]: CREATE INDEX "graph_35_label_idx" ON "graph_35" ("label")
+[2023-01-24 23:05:02 sqlstore]: ANALYZE "graph_35_label_idx"
+[2023-01-24 23:05:02 sqlstore]: CREATE INDEX "graph_38_node1_idx" ON "graph_38" ("node1")
+[2023-01-24 23:05:02 sqlstore]: ANALYZE "graph_38_node1_idx"
+[2023-01-24 23:05:02 sqlstore]: CREATE INDEX "graph_38_id_idx" ON "graph_38" ("id")
+[2023-01-24 23:05:02 sqlstore]: ANALYZE "graph_38_id_idx"
+Elapsed time: 2.00 seconds
+WD4.4 Selecionar CLAIMS do conjunto Multi Value COM qualificador Qw que não seja permitido para o predicado Px Tue 24 Jan 2023 11:05:02 PM -03
+Starting 'query' on pid 267687.
+[2023-01-24 23:05:04 sqlstore]: IMPORT graph directly into table graph_36 from /app/kgtk/data/WD4/allowed_qualifier/allowed_qualifier-P2302-predicate-P2306-quali.tsv ...
+[2023-01-24 23:05:04 sqlstore]: DROP graph data table graph_27
+[2023-01-24 23:05:04 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_38_c3."node1" "_aLias.node1", graph_6_c7."node2" "_aLias.node1;label", count(graph_38_c3."node1") "_aLias.node1;count"
+     FROM graph_16 AS graph_16_c1
+     INNER JOIN graph_17 AS graph_17_c2, graph_38 AS graph_38_c3
+     ON graph_16_c1."id" = graph_17_c2."node1"
+        AND graph_38_c3."node1" = graph_16_c1."label"
+        AND graph_16_c1."label" = graph_38_c3."node1"
+        AND graph_17_c2."label" = graph_17_c2."label"
+        AND (NOT EXISTS (SELECT 1 FROM graph_36 AS graph_36_c9 WHERE graph_17_c2."label" = graph_36_c9."node2"
+        AND graph_38_c3."node1" = graph_36_c9."node1"))
+     LEFT JOIN graph_6 AS graph_6_c7
+     ON graph_38_c3."node1" = graph_6_c7."node1"
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+[2023-01-24 23:05:04 sqlstore]: CREATE INDEX "graph_36_node2_idx" ON "graph_36" ("node2")
+[2023-01-24 23:05:04 sqlstore]: ANALYZE "graph_36_node2_idx"
+[2023-01-24 23:05:04 sqlstore]: CREATE INDEX "graph_36_node1_idx" ON "graph_36" ("node1")
+[2023-01-24 23:05:04 sqlstore]: ANALYZE "graph_36_node1_idx"
+Elapsed time: 3373.44 seconds
+WD4.5 Selecionar CLAIMS do conjunto Completo COM qualificador Qy que não seja permitido para o predicado Px Wed 25 Jan 2023 12:01:16 AM -03
+Starting 'query' on pid 269524.
+[2023-01-25 00:01:18 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_38_c3."node1" "_aLias.node1", graph_6_c7."node2" "_aLias.node1;label", count(graph_38_c3."node1") "_aLias.node1;count"
+     FROM graph_2 AS graph_2_c2
+     INNER JOIN graph_38 AS graph_38_c3, graph_8 AS graph_8_c1
+     ON graph_38_c3."node1" = graph_8_c1."label"
+        AND graph_8_c1."id" = graph_2_c2."node1"
+        AND graph_2_c2."label" = graph_2_c2."label"
+        AND graph_8_c1."label" = graph_38_c3."node1"
+        AND (NOT EXISTS (SELECT 1 FROM graph_36 AS graph_36_c9 WHERE graph_2_c2."label" = graph_36_c9."node2"
+        AND graph_38_c3."node1" = graph_36_c9."node1"))
+     LEFT JOIN graph_6 AS graph_6_c7
+     ON graph_38_c3."node1" = graph_6_c7."node1"
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 50095.28 seconds
+WD4.6 Contabilizar a presença do qualificador Qy não permitido para o predicados Px no conjunto Multi Value Wed 25 Jan 2023 01:56:11 PM -03
+Starting 'query' on pid 272389.
+[2023-01-25 13:56:13 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_17_c2."label" "_aLias.node1", graph_6_c7."node2" "_aLias.node1;label", count(graph_17_c2."label") "_aLias.node1;count"
+     FROM graph_16 AS graph_16_c1
+     INNER JOIN graph_17 AS graph_17_c2, graph_38 AS graph_38_c3
+     ON graph_16_c1."id" = graph_17_c2."node1"
+        AND graph_38_c3."node1" = graph_16_c1."label"
+        AND graph_16_c1."label" = graph_38_c3."node1"
+        AND graph_17_c2."label" = graph_17_c2."label"
+        AND (NOT EXISTS (SELECT 1 FROM graph_36 AS graph_36_c9 WHERE graph_17_c2."label" = graph_36_c9."node2"
+        AND graph_38_c3."node1" = graph_36_c9."node1"))
+     LEFT JOIN graph_6 AS graph_6_c7
+     ON graph_17_c2."label" = graph_6_c7."node1"
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 2600.04 seconds
+WD4.7 Contabilizar a presença do qualificador Qy não permitido para o predicados Px no conjunto conjunto Completo Px Wed 25 Jan 2023 02:39:31 PM -03
+Starting 'query' on pid 272436.
+[2023-01-25 14:39:34 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_2_c2."label" "_aLias.node1", graph_6_c7."node2" "_aLias.node1;label", count(graph_2_c2."label") "_aLias.node1;count"
+     FROM graph_2 AS graph_2_c2
+     INNER JOIN graph_38 AS graph_38_c3, graph_8 AS graph_8_c1
+     ON graph_38_c3."node1" = graph_8_c1."label"
+        AND graph_8_c1."id" = graph_2_c2."node1"
+        AND graph_2_c2."label" = graph_2_c2."label"
+        AND graph_8_c1."label" = graph_38_c3."node1"
+        AND (NOT EXISTS (SELECT 1 FROM graph_36 AS graph_36_c9 WHERE graph_2_c2."label" = graph_36_c9."node2"
+        AND graph_38_c3."node1" = graph_36_c9."node1"))
+     LEFT JOIN graph_6 AS graph_6_c7
+     ON graph_2_c2."label" = graph_6_c7."node1"
+     GROUP BY "_aLias.node1", "_aLias.node1;label"
+     ORDER BY "_aLias.node1;count" DESC
+  PARAS: []
+---------------------------------------------
