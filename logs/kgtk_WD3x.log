@@ -1,0 +1,51 @@
+WD3.15 Agregar aos contadores de Predicados encontrados em Claims potencialmente controversos não qualificados os seus respectivos tipos e constraints Tue 31 Jan 2023 01:26:18 AM -03
+Starting 'query' on pid 288500.
+[2023-01-31 01:26:19 query]: SQL Translation:
+---------------------------------------------
+  SELECT graph_43_c1."node1" "_aLias.node1", ? "_aLias.label", graph_43_c1."node2" "_aLias.node2", graph_43_c1."node1;label" "_aLias.node1;label", graph_43_c1."node1;all-count" "_aLias.node1;all-count", group_concat(DISTINCT graph_6_c5."node2") "_aLias.node1;constraint"
+     FROM graph_43 AS graph_43_c1
+     LEFT JOIN graph_30 AS graph_30_c3
+     ON graph_43_c1."node1" = graph_30_c3."node1"
+     LEFT JOIN graph_6 AS graph_6_c5
+     ON graph_30_c3."node2" = graph_6_c5."node1"
+     WHERE graph_43_c1."node1;all-count" = graph_43_c1."node1;all-count"
+        AND graph_43_c1."node1;label" = graph_43_c1."node1;label"
+     GROUP BY "_aLias.node1", "_aLias.label", "_aLias.node2", "_aLias.node1;label", "_aLias.node1;all-count"
+  PARAS: ['count']
+---------------------------------------------
+Elapsed time: 1.36 seconds
+Starting 'query' on pid 288509.
+[2023-01-31 01:26:21 sqlstore]: IMPORT graph directly into table graph_48 from /app/kgtk/data/WD3/filtered-claims-without-quals-counted-label-constraint.tsv ...
+[2023-01-31 01:26:21 sqlstore]: DROP graph data table graph_47
+[2023-01-31 01:26:21 query]: SQL Translation:
+---------------------------------------------
+  SELECT graph_48_c1."node1" "_aLias.node1", ? "_aLias.label", graph_48_c1."node2" "_aLias.node2", graph_48_c1."node1;label" "_aLias.node1;label", graph_48_c1."node1;all-count" "_aLias.node1;all-count", graph_48_c1."node1;constraint" "_aLias.node1;constraint", group_concat(DISTINCT graph_6_c5."node2") "_aLias.node1;type"
+     FROM graph_48 AS graph_48_c1
+     LEFT JOIN graph_8 AS graph_8_c3
+     ON graph_48_c1."node1" = graph_8_c3."node1"
+        AND graph_8_c3."label" = ?
+     LEFT JOIN graph_6 AS graph_6_c5
+     ON graph_8_c3."node2" = graph_6_c5."node1"
+     WHERE graph_48_c1."node1;all-count" = graph_48_c1."node1;all-count"
+        AND graph_48_c1."node1;constraint" = graph_48_c1."node1;constraint"
+        AND graph_48_c1."node1;label" = graph_48_c1."node1;label"
+     GROUP BY "_aLias.node1", "_aLias.label", "_aLias.node2", "_aLias.node1;label", "_aLias.node1;all-count", "_aLias.node1;constraint"
+  PARAS: ['count', 'P31']
+---------------------------------------------
+[2023-01-31 01:26:21 sqlstore]: CREATE INDEX "graph_48_node1_idx" ON "graph_48" ("node1")
+[2023-01-31 01:26:21 sqlstore]: ANALYZE "graph_48_node1_idx"
+Elapsed time: 1.53 seconds
+WD3.16 TOP-10 Predicados encontrados em Claims potencialmente controversos não qualificados e seus respectivos tipos e constraints Tue 31 Jan 2023 01:26:21 AM -03
+node1	label	node2	node1;label	node1;all-count	node1;constraint	node1;type
+P31	count	4726255	'instance of'@en	59717980	'allowed qualifiers constraint'@en,'value-requires-statement constraint'@en,'contemporary constraint'@en,'allowed-entity-types constraint'@en,'none-of constraint'@en,'property scope constraint'@en	'Wikidata property'@en,'Wikidata property for the relationship'@en
+P528	count	4114061	'catalog code'@en	28738709	'allowed qualifiers constraint'@en	'Wikidata property for items about works'@en,'Wikidata property for a multi-source identifier'@en
+P106	count	3874078	'occupation'@en	9608349	'conflicts-with constraint'@en,'item-requires-statement constraint'@en,'type constraint'@en,'value-type constraint'@en,'contemporary constraint'@en,'allowed-entity-types constraint'@en,'none-of constraint'@en,'property scope constraint'@en	'Wikidata property for items about people'@en,'Wikidata property for items about fictional characters'@en,'Wikidata property used as \"depicts\" (P180) qualifier on Commons'@en
+P361	count	1907576	'part of'@en	4397806	'conflicts-with constraint'@en,'allowed-entity-types constraint'@en,'none-of constraint'@en,'property scope constraint'@en	'Wikidata property for items about people'@en,'transitive property'@en,'asymmetric Wikidata property'@en,'Wikidata property used as \"depicts\" (P180) qualifier on Commons'@en
+P971	count	1600247	'category combines topics'@en	2319814	'conflicts-with constraint'@en,'type constraint'@en,'allowed qualifiers constraint'@en,'multi-value constraint'@en,'allowed-entity-types constraint'@en,'property scope constraint'@en	'Wikidata property about Wikimedia categories'@en
+P527	count	1274798	'has part or parts'@en	1947505	'conflicts-with constraint'@en,'allowed-entity-types constraint'@en,'property scope constraint'@en	'Wikidata property'@en,'transitive property'@en,'Wikidata property used as \"depicts\" (P180) qualifier on Commons'@en
+P279	count	1205993	'subclass of'@en	3296313	'conflicts-with constraint'@en,'value-requires-statement constraint'@en,'contemporary constraint'@en,'allowed-entity-types constraint'@en,'none-of constraint'@en,'property scope constraint'@en	'Wikidata property'@en,'transitive property'@en,'asymmetric Wikidata property'@en,'Wikidata property for the relationship between classes'@en
+P161	count	1196981	'cast member'@en	1429924	'conflicts-with constraint'@en,'type constraint'@en,'allowed qualifiers constraint'@en,'value-requires-statement constraint'@en,'value-type constraint'@en,'allowed-entity-types constraint'@en,'property scope constraint'@en	'Wikidata property for items about works'@en,'Wikidata property for items about films'@en
+P40	count	1041760	'child'@en	1563655	'conflicts-with constraint'@en,'item-requires-statement constraint'@en,'type constraint'@en,'allowed qualifiers constraint'@en,'value-requires-statement constraint'@en,'value-type constraint'@en,'contemporary constraint'@en,'allowed-entity-types constraint'@en,'none-of constraint'@en,'property scope constraint'@en	'asymmetric Wikidata property'@en,'Wikidata property for human relationships'@en,'Wikidata property encoding a vCard value'@en
+P150	count	1023658	'contains administrative territorial entity'@en	1046411	'item-requires-statement constraint'@en,'type constraint'@en,'allowed qualifiers constraint'@en,'value-type constraint'@en,'contemporary constraint'@en,'allowed-entity-types constraint'@en,'property scope constraint'@en	'Wikidata property for items about places'@en
+Elapsed time: 2.55 seconds
+
