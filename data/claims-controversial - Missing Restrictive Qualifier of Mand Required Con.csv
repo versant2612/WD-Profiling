@@ -1,0 +1,14 @@
+Qualifier,Label,Count (All Qualifications),,node1,node1;label,Count (Multi Value Qualification)
+P3415,start period'@en,38268,,P3415,start period'@en,17555
+P1013,criterion used'@en,24668,,P1013,criterion used'@en,16
+P642,of'@en,22462,,P642,of'@en,592
+P2210,relative to'@en,91,,P2210,relative to'@en,4
+P1552,has quality'@en,39,,,,
+P1001,applies to jurisdiction'@en,13,,P1001,applies to jurisdiction'@en,2
+P518,applies to part'@en,8,,P518,applies to part'@en,5
+P1264,valid in period'@en,4,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Arquivo,claims-qualifier-mandatory_constraints-required_qualifier_violated-restrictive_qualifier,,,,,
+,filtered-qualifier-mandatory_constraints-required_qualifier_violated-restrictive_qualifier,,,,,

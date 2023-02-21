@@ -1,0 +1,142 @@
+Claims with disputed by qualifier P1310 (disputedBy-claims-quali-count-label) - Contagem de predicados associados a CLAIMS com qualificador P1310,,,,,
+Predicate,Count,Label,Frequency,,Accumulated Freq
+P17,561,country'@en,"35,57",,"35,57"
+P3355,186,negative therapeutic predictor'@en,"11,79",,"47,36"
+P3354,140,positive therapeutic predictor'@en,"8,88",,"56,24"
+P131,106,located in the administrative territorial entity'@en,"6,72",,"62,96"
+P31,78,instance of'@en,"4,95",,"67,91"
+P460,43,said to be the same as'@en,"2,73",,"70,64"
+P3359,29,negative prognostic predictor'@en,"1,84",,"72,48"
+P40,20,child'@en,"1,27",,"73,75"
+P39,19,position held'@en,"1,2",,"74,95"
+P170,18,creator'@en,"1,14",TOP-10,"76,09"
+P569,18,date of birth'@en,"1,14",,"77,23"
+P1196,13,manner of death'@en,"0,82",,"78,05"
+P509,12,cause of death'@en,"0,76",,"78,81"
+P1376,11,capital of'@en,"0,7",,"79,51"
+P22,11,father'@en,"0,7",,"80,21"
+P50,11,author'@en,"0,7",,"80,91"
+P570,11,date of death'@en,"0,7",,"81,61"
+P3356,10,positive diagnostic predictor'@en,"0,63",,"82,24"
+P106,9,occupation'@en,"0,57",,"82,81"
+P361,8,part of'@en,"0,51",,"83,32"
+P26,7,spouse'@en,"0,44",,"83,76"
+P279,7,subclass of'@en,"0,44",,"84,2"
+P1889,6,different from'@en,"0,38",,"84,58"
+P3373,6,sibling'@en,"0,38",,"84,96"
+P3931,6,copyright holder'@en,"0,38",,"85,34"
+P735,6,given name'@en,"0,38",,"85,72"
+P1050,5,medical condition'@en,"0,32",,"86,04"
+P1120,5,number of deaths'@en,"0,32",,"86,36"
+P1366,5,replaced by'@en,"0,32",,"86,68"
+P138,5,named after'@en,"0,32",,87
+P150,5,contains administrative territorial entity'@en,"0,32",,"87,32"
+P157,5,killed by'@en,"0,32",,"87,64"
+P25,5,mother'@en,"0,32",,"87,96"
+P3842,5,located in present-day administrative territorial entity'@en,"0,32",,"88,28"
+P710,5,participant'@en,"0,32",,"88,6"
+P86,5,composer'@en,"0,32",,"88,92"
+P155,4,follows'@en,"0,25",,"89,17"
+P156,4,followed by'@en,"0,25",,"89,42"
+P180,4,depicts'@en,"0,25",,"89,67"
+P19,4,place of birth'@en,"0,25",,"89,92"
+P527,4,has part or parts'@en,"0,25",TOP-K,"90,17"
+P625,4,coordinate location'@en,"0,25",,"90,42"
+P706,4,located in/on physical feature'@en,"0,25",,"90,67"
+P1038,3,relative'@en,"0,19",,"90,86"
+P1448,3,official name'@en,"0,19",,"91,05"
+P27,3,country of citizenship'@en,"0,19",,"91,24"
+P355,3,subsidiary'@en,"0,19",,"91,43"
+P442,3,China administrative division code'@en,"0,19",,"91,62"
+P451,3,unmarried partner'@en,"0,19",,"91,81"
+P461,3,opposite of'@en,"0,19",TOP-50,92
+P474,3,country calling code'@en,"0,19",,"92,19"
+P576,3,"dissolved, abolished or demolished date'@en","0,19",,"92,38"
+P749,3,parent organization'@en,"0,19",,"92,57"
+P941,3,inspired by'@en,"0,19",,"92,76"
+P1142,2,political ideology'@en,"0,13",,"92,89"
+P1268,2,represents'@en,"0,13",,"93,02"
+P1302,2,primary destinations'@en,"0,13",,
+P1308,2,officeholder'@en,"0,13",,
+P1365,2,replaces'@en,"0,13",,
+P140,2,religion or worldview'@en,"0,13",,
+P1420,2,taxon synonym'@en,"0,13",,
+P1542,2,has effect'@en,"0,13",,
+P1636,2,date of baptism in early childhood'@en,"0,13",,
+P171,2,parent taxon'@en,"0,13",,
+P1855,2,Wikidata property example'@en,"0,13",,
+P20,2,place of death'@en,"0,13",,
+P2388,2,office held by head of the organization'@en,"0,13",,
+P2389,2,organization directed by the office or position'@en,"0,13",,
+P276,2,location'@en,"0,13",,
+P3179,2,territory overlaps'@en,"0,13",,
+P3358,2,positive prognostic predictor'@en,"0,13",,
+P47,2,shares border with'@en,"0,13",,
+P488,2,chairperson'@en,"0,13",,
+P533,2,target'@en,"0,13",,
+P57,2,director'@en,"0,13",,
+P577,2,publication date'@en,"0,13",,
+P61,2,discoverer or inventor'@en,"0,13",,
+P676,2,lyrics by'@en,"0,13",,
+P800,2,notable work'@en,"0,13",,
+P8010,2,number of recoveries'@en,"0,13",,
+P9071,2,character type'@en,"0,13",,
+P91,2,sexual orientation'@en,"0,13",,
+P9759,2,bridge number'@en,"0,13",,
+P1001,1,applies to jurisdiction'@en,"0,06",,
+P1066,1,student of'@en,"0,06",,
+P1074,1,fictional analog of'@en,"0,06",,
+P112,1,founded by'@en,"0,06",,
+P119,1,place of burial'@en,"0,06",,
+P1269,1,facet of'@en,"0,06",,
+P1299,1,depicted by'@en,"0,06",,
+P1332,1,coordinates of northernmost point'@en,"0,06",,
+P1336,1,territory claimed by'@en,"0,06",,
+P1345,1,number of victims of killer'@en,"0,06",,
+P136,1,genre'@en,"0,06",,
+P137,1,operator'@en,"0,06",,
+P144,1,based on'@en,"0,06",,
+P1477,1,birth name'@en,"0,06",,
+P1478,1,has immediate cause'@en,"0,06",,
+P1552,1,has quality'@en,"0,06",,
+P1557,1,manifestation of'@en,"0,06",,
+P175,1,performer'@en,"0,06",,
+P176,1,manufacturer'@en,"0,06",,
+P18,1,image'@en,"0,06",,
+P2043,1,length'@en,"0,06",,
+P2094,1,competition class'@en,"0,06",,
+P21,1,sex or gender'@en,"0,06",,
+P2175,1,medical condition treated'@en,"0,06",,
+P2408,1,set in period'@en,"0,06",,
+P242,1,locator map image'@en,"0,06",,
+P243,1,OCLC control number'@en,"0,06",,
+P2561,1,name'@en,"0,06",,
+P2596,1,culture'@en,"0,06",,
+P263,1,official residence'@en,"0,06",,
+P2635,1,number of parts of this work'@en,"0,06",,
+P3357,1,negative diagnostic predictor'@en,"0,06",,
+P350,1,RKDimages ID'@en,"0,06",,
+P36,1,capital'@en,"0,06",,
+P366,1,has use'@en,"0,06",,
+P3712,1,objective of project or action'@en,"0,06",,
+P3886,1,number of perpetrators'@en,"0,06",,
+P3893,1,public domain date'@en,"0,06",,
+P3909,1,last words'@en,"0,06",,
+P41,1,flag image'@en,"0,06",,
+P463,1,member of'@en,"0,06",,
+P4913,1,dialect of'@en,"0,06",,
+P512,1,academic degree'@en,"0,06",,
+P523,1,temporal range start'@en,"0,06",,
+P559,1,terminus'@en,"0,06",,
+P582,1,end time'@en,"0,06",,
+P6216,1,copyright status'@en,"0,06",,
+P734,1,family name'@en,"0,06",,
+P767,1,contributor to the creative work or subject'@en,"0,06",,
+P770,1,cause of destruction'@en,"0,06",,
+P793,1,significant event'@en,"0,06",,
+P8031,1,perpetrator'@en,"0,06",,
+P828,1,has cause'@en,"0,06",,
+P84,1,architect'@en,"0,06",,
+P879,1,pennant number'@en,"0,06",,
+P94,1,coat of arms image'@en,"0,06",,
+,1577,,,,

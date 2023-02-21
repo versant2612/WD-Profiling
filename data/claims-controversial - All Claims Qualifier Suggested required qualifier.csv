@@ -1,0 +1,35 @@
+"Contagem de Claims por qualificador, que violaram a constraint de required qualifier sugerida associada ao predicado, no conjunto completo ",,,,,
+Qualificadores referente aos predicados das constraints required_qualifier sugerida AUSENTES no conjunto Completo,,,,,
+Qualifier,Label,Count,Frequency,,Accumulated Freq
+P407,language of work or name'@en,1717233,"49,36",,"49,36"
+P459,determination method'@en,926034,"26,62",,"75,98"
+P580,start time'@en,656267,"18,86",TOP-K,"94,84"
+P585,point in time'@en,103465,"2,97",,"97,81"
+P6552,Twitter user numeric ID'@en,19426,"0,56",,"98,37"
+P2676,rating certificate ID'@en,13329,"0,38",,"98,75"
+P972,catalog'@en,8662,"0,25",,99
+P137,operator'@en,5202,"0,15",,"99,15"
+P7367,content descriptor'@en,4085,"0,12",,"99,27"
+P4390,mapping relation type'@en,3561,"0,1",TOP-10,"99,37"
+P131,located in the administrative territorial entity'@en,3356,"0,1",,"99,47"
+P4970,alternative name'@en,3135,"0,09",,"99,56"
+P1810,subject named as'@en,2764,"0,08",,"99,64"
+P437,distribution format'@en,2256,"0,06",,"99,7"
+P8627,closing time'@en,2169,"0,06",,"99,76"
+P8626,opening time'@en,2164,"0,06",,"99,82"
+P8794,BBFC reference'@en,1466,"0,04",,"99,86"
+P1476,title'@en,1164,"0,03",,"99,89"
+P2699,URL'@en,785,"0,02",,"99,91"
+P400,platform'@en,449,"0,01",,"99,92"
+P3005,valid in place'@en,395,"0,01",,"99,93"
+P10663,applies to work'@en,391,"0,01",,"99,94"
+P1552,has quality'@en,378,"0,01",,"99,95"
+P3831,object has role'@en,364,"0,01",,"99,96"
+P3294,encoding'@en,293,"0,01",,"99,97"
+P2700,protocol'@en,127,0,,"99,97"
+P9043,Internet Game Database numeric game ID'@en,41,0,,"99,97"
+P582,end time'@en,13,0,,"99,97"
+P747,has edition or translation'@en,5,0,,"99,97"
+,,3478979,,,
+,,,,,
+Arquivo,claims-qualifier-suggested_constraints-required_qualifier_violated,,,,
