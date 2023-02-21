@@ -1,0 +1,325 @@
+Profiling WD - June 2022
+START Current date Sun 12 Feb 2023 01:36:01 AM -03
+WD9.0 Graph Cache Sun 12 Feb 2023 01:36:01 AM -03
+Graph Cache:
+DB file: /tmp/kgtk-graph-cache-root.sqlite3.db
+  size:  137.40 GB   	free:  12.29 KB   	modified:  2023-02-12 01:03:16
+
+KGTK File Information:
+q2302:
+  size:  1.69 MB   	modified:  2023-02-10 20:27:47   	graph:  graph_6
+mvrq:
+  size:  24.76 MB   	modified:  2023-02-02 14:30:03   	graph:  graph_13
+c:
+  size:  3.65 GB   	modified:  2023-01-24 02:10:06   	graph:  graph_10
+required:
+  size:  5.37 KB   	modified:  2023-02-02 10:56:07   	graph:  graph_8
+lab:
+  size:  679.79 MB   	modified:  2023-01-03 00:32:53   	graph:  graph_1
+p2302:
+  size:  732.00 KB   	modified:  2023-02-10 20:03:13   	graph:  graph_5
+f1:
+  size:  8.78 GB   	modified:  2022-12-31 22:47:48   	graph:  graph_11
+allowed:
+  size:  9.38 KB   	modified:  2023-01-24 22:54:18   	graph:  graph_9
+claims:
+  size:  11.53 GB   	modified:  2022-10-29 23:58:12   	graph:  graph_2
+quals:
+  size:  2.66 GB   	modified:  2022-12-02 18:31:14   	graph:  graph_3
+prop:
+  size:  4.00 MB   	modified:  2023-02-01 22:23:44   	graph:  graph_4
+p5314:
+  size:  1.10 MB   	modified:  2023-02-11 16:02:03   	graph:  graph_7
+
+Graph Table Information:
+graph_1:
+  size:  4.52 GB   	created:  2023-02-11 13:24:20
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_10:
+  size:  20.71 GB   	created:  2023-02-11 17:56:30
+  header:  ['id', 'node1', 'label', 'node2', 'p1;quali_id', 'p1;quali_label', 'p1;quali_value']
+graph_11:
+  size:  9.98 GB   	created:  2023-02-11 23:59:32
+  header:  ['id', 'node1', 'label', 'node2']
+graph_13:
+  size:  94.14 MB   	created:  2023-02-12 01:03:16
+  header:  ['id', 'node1', 'label', 'node2']
+graph_2:
+  size:  76.05 GB   	created:  2023-02-11 15:24:27
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_3:
+  size:  26.01 GB   	created:  2023-02-11 15:57:16
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_4:
+  size:  18.69 MB   	created:  2023-02-11 16:00:23
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_5:
+  size:  9.87 MB   	created:  2023-02-11 16:00:25
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_6:
+  size:  24.19 MB   	created:  2023-02-11 16:00:26
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_7:
+  size:  1.22 MB   	created:  2023-02-11 16:02:05
+  header:  ['node1', 'node1;label', 'label', 'node2']
+graph_8:
+  size:  45.06 KB   	created:  2023-02-11 16:15:45
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_9:
+  size:  69.63 KB   	created:  2023-02-11 16:15:47
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+Elapsed time: 1.49 seconds
+id	node1	label	node2	lang	rank	node2;wikidatatype
+P10-alias-en-282226-0	P10	alias	'gif'@en	en		
+P10-alias-en-2f86d8-0	P10	alias	'animation'@en	en		
+P10-alias-en-c1427e-0	P10	alias	'media'@en	en		
+Elapsed time: 64.46 seconds
+id	node1	label	node2	lang	rank	node2;wikidatatype
+P10-label-en	P10	label	'video'@en	en		
+P1000-label-en	P1000	label	'record held'@en	en		
+P10000-label-en	P10000	label	'Research Vocabularies Australia ID'@en	en		
+Elapsed time: 1.20 seconds
+Graph Cache:
+DB file: /tmp/kgtk-graph-cache-root.sqlite3.db
+  size:  138.33 GB   	free:  4.10 KB   	modified:  2023-02-12 01:37:08
+
+KGTK File Information:
+q2302:
+  size:  1.69 MB   	modified:  2023-02-10 20:27:47   	graph:  graph_6
+mvrq:
+  size:  24.76 MB   	modified:  2023-02-02 14:30:03   	graph:  graph_13
+c:
+  size:  3.65 GB   	modified:  2023-01-24 02:10:06   	graph:  graph_10
+required:
+  size:  5.37 KB   	modified:  2023-02-02 10:56:07   	graph:  graph_8
+lab:
+  size:  679.79 MB   	modified:  2023-01-03 00:32:53   	graph:  graph_1
+alias:
+  size:  187.64 MB   	modified:  2022-11-01 16:45:54   	graph:  graph_14
+p2302:
+  size:  732.00 KB   	modified:  2023-02-10 20:03:13   	graph:  graph_5
+f1:
+  size:  8.78 GB   	modified:  2022-12-31 22:47:48   	graph:  graph_11
+allowed:
+  size:  9.38 KB   	modified:  2023-01-24 22:54:18   	graph:  graph_9
+claims:
+  size:  11.53 GB   	modified:  2022-10-29 23:58:12   	graph:  graph_2
+quals:
+  size:  2.66 GB   	modified:  2022-12-02 18:31:14   	graph:  graph_3
+prop:
+  size:  4.00 MB   	modified:  2023-02-01 22:23:44   	graph:  graph_4
+p5314:
+  size:  1.10 MB   	modified:  2023-02-11 16:02:03   	graph:  graph_7
+
+Graph Table Information:
+graph_1:
+  size:  4.52 GB   	created:  2023-02-11 13:24:20
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_10:
+  size:  20.71 GB   	created:  2023-02-11 17:56:30
+  header:  ['id', 'node1', 'label', 'node2', 'p1;quali_id', 'p1;quali_label', 'p1;quali_value']
+graph_11:
+  size:  9.98 GB   	created:  2023-02-11 23:59:32
+  header:  ['id', 'node1', 'label', 'node2']
+graph_13:
+  size:  94.14 MB   	created:  2023-02-12 01:03:16
+  header:  ['id', 'node1', 'label', 'node2']
+graph_14:
+  size:  925.48 MB   	created:  2023-02-12 01:37:06
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_2:
+  size:  76.05 GB   	created:  2023-02-11 15:24:27
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_3:
+  size:  26.01 GB   	created:  2023-02-11 15:57:16
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_4:
+  size:  18.69 MB   	created:  2023-02-11 16:00:23
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_5:
+  size:  9.87 MB   	created:  2023-02-11 16:00:25
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_6:
+  size:  24.19 MB   	created:  2023-02-11 16:00:26
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_7:
+  size:  1.22 MB   	created:  2023-02-11 16:02:05
+  header:  ['node1', 'node1;label', 'label', 'node2']
+graph_8:
+  size:  45.06 KB   	created:  2023-02-11 16:15:45
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+graph_9:
+  size:  69.63 KB   	created:  2023-02-11 16:15:47
+  header:  ['id', 'node1', 'label', 'node2', 'lang', 'rank', 'node2;wikidatatype']
+Elapsed time: 1.23 seconds
+WD9.1 All Claims and Qualifications Sun 12 Feb 2023 01:37:09 AM -03
+Starting 'query' on pid 3148.
+[2023-02-12 01:37:11 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(graph_2_c1."id") "_aLias.total_claims"
+     FROM graph_2 AS graph_2_c1
+  PARAS: []
+---------------------------------------------
+total_claims
+559038971
+Elapsed time: 247.07 seconds
+Starting 'query' on pid 3160.
+[2023-02-12 01:41:18 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(graph_3_c1."id") "_aLias.total_qualifications"
+     FROM graph_3 AS graph_3_c1
+  PARAS: []
+---------------------------------------------
+total_qualifications
+141983745
+Elapsed time: 172.24 seconds
+WD9.2 Properties and Scope - Table 1 Sun 12 Feb 2023 01:44:09 AM -03
+Starting 'query' on pid 3171.
+[2023-02-12 01:44:10 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_4_c1."node1") "_aLias.total_properties"
+     FROM graph_4 AS graph_4_c1
+  PARAS: []
+---------------------------------------------
+total_properties
+10089
+Elapsed time: 1.47 seconds
+Starting 'query' on pid 3180.
+[2023-02-12 01:44:11 query]: SQL Translation:
+---------------------------------------------
+  SELECT DISTINCT graph_5_c1."node1" "_aLias.node1", graph_1_c6."node2" "_aLias.node1;label", ? "_aLias.label", graph_1_c8."node2" "_aLias.node2"
+     FROM graph_5 AS graph_5_c1
+     LEFT JOIN (graph_5 AS graph_5_c3
+         INNER JOIN graph_6 AS graph_6_c4
+         ON graph_5_c3."id" = graph_6_c4."node1"
+            AND graph_5_c3."node2" = ?
+            AND graph_6_c4."label" = ?)
+     ON graph_5_c1."node1" = graph_5_c3."node1"
+     LEFT JOIN graph_1 AS graph_1_c6
+     ON graph_5_c1."node1" = graph_1_c6."node1"
+     LEFT JOIN graph_1 AS graph_1_c8
+     ON graph_6_c4."node2" = graph_1_c8."node1"
+  PARAS: ['property scope', 'Q53869507', 'P5314']
+---------------------------------------------
+Elapsed time: 1.91 seconds
+Starting 'query' on pid 3189.
+[2023-02-12 01:44:13 sqlstore]: IMPORT graph directly into table graph_15 from /app/kgtk/data/WD6/properties-labeled-scope.tsv ...
+[2023-02-12 01:44:13 sqlstore]: DROP graph data table graph_7
+[2023-02-12 01:44:13 query]: SQL Translation:
+---------------------------------------------
+  SELECT graph_15_c1."node2", count(graph_15_c1."node1")
+     FROM graph_15 AS graph_15_c1
+     GROUP BY graph_15_c1."node2"
+     ORDER BY count(graph_15_c1."node1") DESC
+  PARAS: []
+---------------------------------------------
+Elapsed time: 1.61 seconds
+Starting 'head' on pid 3212.
+node2	count(graph_15_c1."node1")
+'as main value'@en	8663
+'as reference'@en	6058
+	1099
+'as qualifier'@en	745
+Elapsed time: 1.04 seconds
+Starting 'query' on pid 3221.
+[2023-02-12 01:44:16 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_2_c1."label") "_aLias.total_predicate"
+     FROM graph_2 AS graph_2_c1
+  PARAS: []
+---------------------------------------------
+total_predicate
+9653
+Elapsed time: 643.07 seconds
+Starting 'query' on pid 3277.
+[2023-02-12 01:54:59 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_3_c1."label") "_aLias.total_qualifiers"
+     FROM graph_3 AS graph_3_c1
+  PARAS: []
+---------------------------------------------
+total_qualifiers
+9906
+Elapsed time: 2.31 seconds
+WD9.3 Constraints about Qualifiers Sun 12 Feb 2023 01:55:00 AM -03
+Starting 'query' on pid 3287.
+[2023-02-12 01:55:01 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_8_c1."node1") "_aLias.total_predicate_with_required_qualifier"
+     FROM graph_8 AS graph_8_c1
+  PARAS: []
+---------------------------------------------
+total_predicate_with_required_qualifier
+363
+Elapsed time: 1.33 seconds
+Starting 'query' on pid 3296.
+[2023-02-12 01:55:03 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_9_c1."node1") "_aLias.total_predicate_with_allowed_qualifier"
+     FROM graph_9 AS graph_9_c1
+  PARAS: []
+---------------------------------------------
+total_predicate_with_allowed_qualifier
+761
+Elapsed time: 1.31 seconds
+WD9.4 Disputed By Sun 12 Feb 2023 01:55:03 AM -03
+Starting 'query' on pid 3306.
+[2023-02-12 01:55:04 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_2_c1."id") "_aLias.total_P1310_claims", count(DISTINCT graph_2_c1."label") "_aLias.total_P1310_predicates"
+     FROM graph_2 AS graph_2_c1
+     INNER JOIN graph_3 AS graph_3_c2
+     ON graph_2_c1."id" = graph_3_c2."node1"
+        AND graph_3_c2."label" = ?
+  PARAS: ['P1310']
+---------------------------------------------
+total_P1310_claims	total_P1310_predicates
+1577	139
+Elapsed time: 6.44 seconds
+WD9.5 Claims with Qualification Sun 12 Feb 2023 01:55:09 AM -03
+id	node1	label	node2	p1;quali_id	p1;quali_label	p1;quali_value
+Q1531877-P10-22cc04-3e71b5bc-0	Q1531877	P10	"Glockengießen. Teil 1 Die Glockenform.webm"	Q1531877-P10-22cc04-3e71b5bc-0-P1476-1e40a8-0	P1476	'Glockengießen. Teil 1: Die Glockenform'@de
+Q1531877-P10-37503e-acbc4403-0	Q1531877	P10	"Glockengiessen. Teil 2 Der Guß.webm"	Q1531877-P10-37503e-acbc4403-0-P1476-4cf038-0	P1476	'Glockengiessen. Teil 2: Der Guß'@de
+Q830894-P10-24ffb5-e18051e2-0	Q830894	P10	"Steinzeugtöpferei in Adendorf. Teil 1 Herrichten und Einräumen des Ofens.webm"	Q830894-P10-24ffb5-e18051e2-0-P1476-ea88f2-0	P1476	'Steinzeugtöpferei in Adendorf. Teil 1 Herrichten und Einräumen des Ofens'@de
+Elapsed time: 1.15 seconds
+Starting 'query' on pid 3325.
+[2023-02-12 01:55:11 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_10_c1."id") "_aLias.total_quali_claims"
+     FROM graph_10 AS graph_10_c1
+  PARAS: []
+---------------------------------------------
+total_quali_claims
+116211413
+Elapsed time: 624.86 seconds
+Starting 'query' on pid 3338.
+[2023-02-12 02:05:36 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_10_c1."label") "_aLias.pred_quali_claims"
+     FROM graph_10 AS graph_10_c1
+  PARAS: []
+---------------------------------------------
+pred_quali_claims
+5082
+Elapsed time: 70.09 seconds
+WD9.6 Multiple Values and Constraints Sun 12 Feb 2023 02:06:45 AM -03
+Starting 'query' on pid 3348.
+[2023-02-12 02:06:47 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(DISTINCT graph_11_c1."id") "_aLias.total_mv_claims"
+     FROM graph_11 AS graph_11_c1
+  PARAS: []
+---------------------------------------------
+total_mv_claims
+132552453
+Elapsed time: 199.46 seconds
+Starting 'query' on pid 3360.
+[2023-02-12 02:10:06 query]: SQL Translation:
+---------------------------------------------
+  SELECT count(graph_13_c1."id") "_aLias.total_mv_req_quali_violations"
+     FROM graph_13 AS graph_13_c1
+  PARAS: []
+---------------------------------------------
+total_mv_req_quali_violations
+1333012
+Elapsed time: 2.40 seconds
