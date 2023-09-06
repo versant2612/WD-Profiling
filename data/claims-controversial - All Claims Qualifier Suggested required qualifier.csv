@@ -1,5 +1,3 @@
-"Contagem de Claims por qualificador, que violaram a constraint de required qualifier sugerida associada ao predicado, no conjunto completo ",,,,,
-Qualificadores referente aos predicados das constraints required_qualifier sugerida AUSENTES no conjunto Completo,,,,,
 Qualifier,Label,Count,Frequency,,Accumulated Freq
 P407,language of work or name'@en,1717233,"49,36",,"49,36"
 P459,determination method'@en,926034,"26,62",,"75,98"
@@ -32,4 +30,4 @@ P582,end time'@en,13,0,,"99,97"
 P747,has edition or translation'@en,5,0,,"99,97"
 ,,3478979,,,
 ,,,,,
-Arquivo,claims-qualifier-suggested_constraints-required_qualifier_violated,,,,
+,,,,Source File,claims-qualifier-suggested_constraints-required_qualifier_violated
