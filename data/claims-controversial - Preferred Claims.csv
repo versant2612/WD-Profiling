@@ -1,4 +1,3 @@
-Preferred Claims (preferredRank-claims-pred-count-label) - Contagem de predicados associados a CLAIMS com rank=preferred,,,,,
 Predicate,Count,Label,Frequency,,Accumulated Freq
 P1215,3914843,apparent magnitude'@en,"71,43",,"71,43"
 P1082,225689,population'@en,"4,12",,"75,55"
