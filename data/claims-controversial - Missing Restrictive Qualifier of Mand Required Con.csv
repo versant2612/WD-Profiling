@@ -1,4 +1,4 @@
-Qualifier,Label,Count (All Qualifications),,node1,node1;label,Count (Multi Value Qualification)
+Qualifier,Label,Count (All Qualifications),,Qualifier,Label,Count (Multi Value Qualification)
 P3415,start period'@en,38268,,P3415,start period'@en,17555
 P1013,criterion used'@en,24668,,P1013,criterion used'@en,16
 P642,of'@en,22462,,P642,of'@en,592
